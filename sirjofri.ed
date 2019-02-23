@@ -1,0 +1,4 @@
+,s/font = "Liberation Mono:pixelsize=12:/font = "Bitstream Vera Sans Mono:pixelsize=20:/g
+,s/shell = "\/bin\/sh"/shell = "\/usr\/bin\/zsh"/g
+w
+q
