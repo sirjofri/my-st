@@ -1,5 +1,6 @@
 patches= \
 	st-scrollback-20190122-3be4cf1.diff \
+	st-scrollback-mouse-0.8.diff \
 	st-hidecursor-0.8.1.diff \
 	plumb_without_shell_OSC.diff \
 
@@ -35,6 +36,9 @@ st-scrollback-20190122-3be4cf1.diff:
 
 st-hidecursor-0.8.1.diff:
 	wget http://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.1.diff
+
+st-scrollback-mouse-0.8.diff:
+	wget http://st.suckless.org/patches/scrollback/st-scrollback-mouse-0.8.diff
 
 clean:
 	- rm -Rf $(src)
